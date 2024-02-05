@@ -28,7 +28,7 @@ class ProjectController extends Controller
         } else {
             return response()->json([
                 'success' => false,
-                'results' => 'Nessun progetto trovato'
+                'message' => 'Nessun progetto trovato'
             ]);
         }
     }
